@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comida Italiana</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #535353;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            h1 {
+                margin-top: 0;
+            }
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            .prato {
+                display: inline-block;
+                width: 30%;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .prato img {
+                width: 100%;
+                border-radius: 5px;
+            }
+            .prato label {
+                display: block;
+                margin-top: 10px;
+            }
+            input[type="submit"] {
+                background-color: #e74c3c;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #c0392b;
+            }
+            .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comida {
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .comida img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        .comida p {
+            margin-top: 0;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Comida Italiana</h1>
+        </header>
+        <!--Cabeçalho do site-->
+        <div class="container">
+            <form>
+                <div class="prato">
+                    <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/pizza-2714962_960_720.jpg" alt="Pizza">
+                    <input type="checkbox" id="pizza" name="prato" value="pizza">
+                </div>
+                <div class="prato">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/spaghetti-2008716_960_720.jpg" alt="Pasta">
+                    <input type="checkbox" id="pasta" name="prato" value="pasta">
+                </div>
+                <div class="prato">
+                    <img src="https://cdn.pixabay.com/photo/2015/05/31/11/08/risotto-791891_960_720.jpg" alt="Risotto">
+                    <input type="checkbox" id="risotto" name="prato" value="risotto">
+                </div>
+                <div class="prato">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/26/23/15/polenta-2017317_960_720.jpg" alt="Polenta">
+                    <input type="checkbox" id="polenta" name="prato" value="polenta">
+                </div>
+                <div class="prato">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/03/20/11/spoon-2570194_960_720.jpg" alt="Gnocchi">
+                    <input type="checkbox" id="gnocchi" name="prato" value="gnocchi">
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+         <!--Div dos pratos, incluíndo o input formando a check box e também na div temos o botão de "Enviar", novamente com o input submit e o value com o nome do botão.-->
+            <div class="container">
+        <div class="comida">
+            <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/pizza-2714962_960_720.jpg" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>A pizza é um prato originário da Itália. É um dos pratos italianos mais conhecidos e apreciados em todo o mundo. Sua origem remonta à antiguidade, quando os habitantes da região da Campânia, no sul da Itália, preparavam uma massa plana assada em fornos a lenha. Hoje em dia, existem inúmeras variações de pizza, com diferentes tipos de cobertura, mas as mais tradicionais incluem molho de tomate, queijo e outros ingredientes como pepperoni, cogumelos, presunto, entre outros.</p>
+        </div>
+        <div class="comida">
+            <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/spaghetti-2008716_960_720.jpg" alt="Pasta">
+            <h2>Pasta</h2>
+            <p>A pasta é um dos pilares da culinária italiana. Existem centenas de tipos de massas, cada uma com sua própria história e forma de preparo. A pasta pode ser servida com uma variedade de molhos, incluindo molho de tomate, molho à bolonhesa, molho branco, entre outros. As massas são versáteis, nutritivas e deliciosas, e são apreciadas em todo o mundo.</p>
+        </div>
+        <div class="comida">
+            <img src="https://cdn.pixabay.com/photo/2015/05/31/11/08/risotto-791891_960_720.jpg" alt="Risotto">
+            <h2>Risotto</h2>
+            <p>O risoto é um prato de arroz cremoso originário da região norte da Itália, especialmente das regiões de Lombardia e Piemonte. É preparado com arroz arbóreo ou carnaroli, que são tipos de arroz de grão curto que têm a capacidade de absorver líquido sem perder a textura. O risoto é cozido lentamente em caldo de carne ou legumes, e é frequentemente complementado com ingredientes como cogumelos, queijo parmesão, açafrão, entre outros.</p>
+        </div>
+    </div>
+    </body>
+</html>
