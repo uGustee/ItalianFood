@@ -3,81 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Comida Italiana</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 0;
-            }
-            header {
-                background-color: #535353;
-                color: #fff;
-                padding: 20px;
-                text-align: center;
-            }
-            
-            h1 {
-                margin-top: 0;
-            }
-            .container {
-                max-width: 800px;
-                margin: 20px auto;
-                padding: 20px;
-                background-color: #fff;
-                border-radius: 10px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            
-            .prato {
-                display: inline-block;
-                width: 30%;
-                margin-bottom: 20px;
-                text-align: center;
-            }
-            .prato img {
-                width: 100%;
-                border-radius: 5px;
-            }
-            .prato label {
-                display: block;
-                margin-top: 10px;
-            }
-            input[type="submit"] {
-                background-color: #e74c3c;
-                color: #fff;
-                border: none;
-                padding: 10px 20px;
-                font-size: 16px;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-            input[type="submit"]:hover {
-                background-color: #c0392b;
-            }
-            .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .comida {
-            margin-bottom: 20px;
-            overflow: hidden;
-        }
-        .comida img {
-            float: left;
-            margin-right: 20px;
-            border-radius: 5px;
-        }
-        .comida p {
-            margin-top: 0;
-        }
-        </style>
     </head>
+
     <body>
         <header>
             <h1>Comida Italiana</h1>
@@ -102,29 +31,41 @@
                     <input type="checkbox" id="polenta" name="prato" value="polenta">
                 </div>
                 <div class="prato">
-                    <img src="https://cdn.pixabay.com/photo/2017/08/03/20/11/spoon-2570194_960_720.jpg" alt="Gnocchi">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/03/20/11/spoon-2570194_960_720.jpg" alt="Nhoque">
                     <input type="checkbox" id="gnocchi" name="prato" value="gnocchi">
                 </div>
                 <input type="submit" value="Enviar">
             </form>
         </div>
-         <!--Div dos pratos, incluíndo o input formando a check box e também na div temos o botão de "Enviar", novamente com o input submit e o value com o nome do botão.-->
+        <!--Div dos pratos, incluíndo o input formando a check box e também na div temos o botão de "Enviar", novamente com o input submit e o value com o nome do botão.-->
+
             <div class="container">
         <div class="comida">
-            <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/pizza-2714962_960_720.jpg" alt="Pizza">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVlx3nG6bBOpCpyUS524n7_n-z9rbGUzOtg&usqp=CAU" alt="Pizza">
             <h2>Pizza</h2>
-            <p>A pizza é um prato originário da Itália. É um dos pratos italianos mais conhecidos e apreciados em todo o mundo. Sua origem remonta à antiguidade, quando os habitantes da região da Campânia, no sul da Itália, preparavam uma massa plana assada em fornos a lenha. Hoje em dia, existem inúmeras variações de pizza, com diferentes tipos de cobertura, mas as mais tradicionais incluem molho de tomate, queijo e outros ingredientes como pepperoni, cogumelos, presunto, entre outros.</p>
+            <p>A pizza é um prato originário da cidade de Nápoles, na Itália, e consiste em uma base de massa de pão achatada, coberta com molho de tomate e uma variedade de ingredientes, como queijo, carnes, vegetais e ervas. É tradicionalmente assada em um forno a lenha em alta temperatura. A pizza é um dos pratos italianos mais conhecidos e populares em todo o mundo, com inúmeras variações regionais e internacionais.</p>
         </div>
         <div class="comida">
-            <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/spaghetti-2008716_960_720.jpg" alt="Pasta">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjTrVWYeToFlZsp2mHHvWH2KLT2fRUa_GyBg&usqp=CAU" alt="Pasta">
             <h2>Pasta</h2>
             <p>A pasta é um dos pilares da culinária italiana. Existem centenas de tipos de massas, cada uma com sua própria história e forma de preparo. A pasta pode ser servida com uma variedade de molhos, incluindo molho de tomate, molho à bolonhesa, molho branco, entre outros. As massas são versáteis, nutritivas e deliciosas, e são apreciadas em todo o mundo.</p>
         </div>
         <div class="comida">
-            <img src="https://cdn.pixabay.com/photo/2015/05/31/11/08/risotto-791891_960_720.jpg" alt="Risotto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWQXqwPcfAoMh_2tLWKLbM3_ON2Wu8zkMh8Zz8lOGba3_lAhKwa8T_CQRF10BSBv7KVlk&usqp=CAU" alt="Risotto">
             <h2>Risotto</h2>
             <p>O risoto é um prato de arroz cremoso originário da região norte da Itália, especialmente das regiões de Lombardia e Piemonte. É preparado com arroz arbóreo ou carnaroli, que são tipos de arroz de grão curto que têm a capacidade de absorver líquido sem perder a textura. O risoto é cozido lentamente em caldo de carne ou legumes, e é frequentemente complementado com ingredientes como cogumelos, queijo parmesão, açafrão, entre outros.</p>
         </div>
+        <div class="comida">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH8DKSsBwH7ZZHkpmqym__u7DV-laZm1A9OrvHDDxKYhhHNYZhq1kfMx45RPpCGQeeyFI&usqp=CAU" alt="Polenta">
+            <h2>Polenta</h2>
+            <p>A polenta é um prato originário da região norte da Itália, especialmente das áreas rurais. É feita a partir de farinha de milho (ou sêmola de milho) e água, cozida até atingir uma consistência cremosa e espessa. A polenta é um alimento versátil e pode ser servida de várias formas, como polenta mole (mais cremosa) ou polenta firme (mais consistente). É frequentemente acompanhada de molhos, carnes, queijos ou legumes, sendo um prato reconfortante e nutritivo.</p>
+        </div>
+        <div class="comida">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV014CYaTc2wVMMIyZ3el-K5im469RoNDQg&usqp=CAU" alt="gnocchi">
+            <h2>Nhoque</h2>
+            <p>Nhoque é uma massa italiana feita tradicionalmente com batatas, farinha e, por vezes, ovos. É conhecido por sua textura macia e delicada. Geralmente, os gnocchis são moldados em pequenas bolas e depois levemente achatados com um garfo para criar sulcos que ajudam a reter molhos. Eles são cozidos em água fervente até flutuarem, indicando que estão prontos. Os gnocchis podem ser servidos com uma variedade de molhos, como molho de tomate, molho pesto ou molho de manteiga e sálvia.</p>
+        </div>
     </div>
+    <!--Outra div, essa div é responsável pelo agrupamento do conjunto das imagens e explicações de cada prato.-->
     </body>
 </html>
