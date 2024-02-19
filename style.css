@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/*cor, tamanho, margem, etc do fundo*/
 
 header {
     background-color: gray;
@@ -11,10 +12,12 @@ header {
     padding: 20px;
     text-align: center;
 }
+/*header do site, a parte de cima, muda cor da fonte e do fundo, alinha o texto tambem*/
               
 h1 {
     margin-top: 0;
 }
+/*arruma a posição do h1*/
 
 .container {
     max-width: 800px;
@@ -24,6 +27,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/*pra deixar certinho as lacunas de cima. muda cor de fundo, tamanho, alinha e enfeita*/
             
 .prato {
     display: inline-block;
@@ -31,16 +35,19 @@ h1 {
     margin-bottom: 20px;
     text-align: center;
 }
+/*muda o nome do prato, pra logo em seguida ir a foto, ficar certinho. muda o lugar onde fica, no caso no meio, e o tamanho.*/
 
 .prato img {
     width: 100%;
     border-radius: 5px;
 }
+/*imagem que representa o prato, como escrito acima. ajusta o tamanho da foto e da borda*/
 
 .prato label {
     display: block;
     margin-top: 10px;
 }
+/*label para enviar, no caso seria das checkbox dos pratos*/
 
 input[type="submit"] {
     background-color: #e74c3c;
@@ -51,10 +58,12 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+/*arruma o botão de enviar, muda borda, como o ponteiro do mouse fica, etc*/
 
 input[type="submit"]:hover {
     background-color: #c0392b;
 }
+/*pra cor mudar quando vai no botão*/
 
 .container {
     max-width: 800px;
@@ -64,18 +73,22 @@ input[type="submit"]:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/*arruma a parte de baixo, ajustando a pra deixar igual a de cima (igual o conteiner de cima)*/
 
 .comida {
     margin-bottom: 20px;
     overflow: hidden;
 }
+/*representando a comida da parte de baixo, assim como na parte de cima, para logo em seguida vir a imagem*/
 
 .comida img {
     float: left;
     margin-right: 20px;
     border-radius: 5px;
 }
+/*imagem com float left, direcionando a imagem para a esquerda, ajusta tambem a borda (sombra) e tambem o tamanho da foto*/
 
 .comida p {
     margin-top: 0;
 }
+/*muda a letra da explicação da comida, nesse caso, arrumando a margem dela, deixando 0 para cima*/
